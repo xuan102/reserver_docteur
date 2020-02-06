@@ -23,4 +23,8 @@ Une fois dans la console Rails (`rails c`) vous pourrez explorer les tables de d
 
 `tp City.all
 
-etc...
+tp JoinTableDoctorSpecialty.all
+
+tp Specialty.all
+
+
