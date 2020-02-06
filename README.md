@@ -1,24 +1,37 @@
-# README
+## :wrench: Installation 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Configuration
+Entrez les commandes suivantes dans votre terminal préféré :
 
-Things you may want to cover:
+`git clone git@github.com:luca-montaigut/Freedoc.git`
 
-* Ruby version
+`cd FreeDoc`
 
-* System dependencies
+`bundle install`
 
-* Configuration
+### Database creation
 
-* Database creation
+`rails db:migrate`
 
-* Database initialization
+### Database initialisation
 
-* How to run the test suite
+`rails db:seed`
 
-* Services (job queues, cache servers, search engines, etc.)
+`rails c`
 
-* Deployment instructions
 
-* ...
+## 🔥 Démarrage
+
+Une fois dans la console Rails (`rails c`) vous pourrez explorer les tables de données suivantes avec la commande tp de la gem table_print (installée grâce au Gemfile présent lors du `bundle install`) :
+
+`tp Doctor.all`
+
+`tp Patient.all`
+
+`tp Appointment.all`
+
+`tp City.all`
+
+`tp JoinTableDoctorSpecialty.all`
+
+`tp Specialty.all`
