@@ -1,13 +1,4 @@
-## :wrench: Installation 
 
-### Configuration
-Entrez les commandes suivantes dans votre terminal préféré :
-
-`git clone git@github.com:luca-montaigut/Freedoc.git`
-
-`cd FreeDoc`
-
-`bundle install`
 
 ### Database creation
 
@@ -30,8 +21,6 @@ Une fois dans la console Rails (`rails c`) vous pourrez explorer les tables de d
 
 `tp Appointment.all`
 
-`tp City.all`
+`tp City.all
 
-`tp JoinTableDoctorSpecialty.all`
-
-`tp Specialty.all`
+etc...
